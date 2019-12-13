@@ -1,0 +1,4 @@
+---
+- name: Installation emacs
+    apt:
+      name: emacs
