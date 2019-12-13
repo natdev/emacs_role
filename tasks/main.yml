@@ -1,4 +1,6 @@
 ---
-- name: Installation emacs
+  - name: Installation emacs
+    become: yes
     apt:
-      name: emacs
+      name: emacs-nox
+      state: latest
